@@ -21,7 +21,7 @@ function App() {
   const displayItems = items.slice(startIndex, endIndex)
   const displayMovies = displayItems.map((item)=>{
     return(
-      <div 
+      <div          
       key = {item.index} 
       style={{
         height: itemHeight,
